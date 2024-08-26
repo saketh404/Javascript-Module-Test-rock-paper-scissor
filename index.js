@@ -139,9 +139,9 @@ const startGame = (userPicked) => {
 
     resultBoard.style.marginTop = "6rem";
   } else if (
-    (userPicked === "rock" && pcPicked === "scissors") ||
+    (userPicked === "rock" && pcPicked === "scissor") ||
     (userPicked === "paper" && pcPicked === "rock") ||
-    (userPicked === "scissors" && pcPicked === "paper")
+    (userPicked === "scissor" && pcPicked === "paper")
   ) {
     res = result.WIN;
 
